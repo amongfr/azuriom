@@ -1,0 +1,24 @@
+2022/03/25 11:58:22 [notice] 1888#11004: signal process started
+2022/03/25 12:00:51 [notice] 7836#9308: signal process started
+2022/03/25 12:14:36 [notice] 6432#3476: signal process started
+2022/03/25 12:19:56 [notice] 14544#248: signal process started
+2022/03/25 13:00:48 [notice] 1560#4064: signal process started
+2022/03/25 13:01:56 [notice] 20392#12736: signal process started
+2022/03/25 13:06:22 [notice] 19320#18656: signal process started
+2022/03/25 13:06:31 [notice] 8028#12220: signal process started
+2022/03/25 13:09:51 [notice] 8872#4700: signal process started
+2022/03/25 13:54:00 [notice] 8100#6232: signal process started
+2022/03/25 13:54:10 [notice] 2344#18044: signal process started
+2022/03/25 14:23:34 [error] 15924#11904: *6 access forbidden by rule, client: 192.168.1.27, server: localhost, request: "GET / HTTP/1.1", host: "192.168.1.27"
+2022/03/25 14:23:40 [error] 15924#11904: *7 access forbidden by rule, client: 192.168.1.27, server: localhost, request: "GET /HNAP1/ HTTP/1.1", host: "192.168.1.27"
+2022/03/25 20:10:29 [emerg] 18596#11384: "charset" directive is duplicate in C:/Users/amongfr/Downloads/laragon-portable/etc/nginx/sites-enabled/00-default.conf:34
+2022/03/25 21:14:23 [emerg] 10744#12592: "charset" directive is duplicate in C:/Users/amongfr/Downloads/laragon-portable/etc/nginx/sites-enabled/00-default.conf:34
+2022/03/25 21:15:01 [notice] 11184#7428: signal process started
+2022/03/26 06:42:37 [alert] 17936#12420: worker process 4628 exited with code C0000142
+2022/03/26 06:42:37 [alert] 17936#12420: could not respawn worker
+2022/03/26 08:56:59 [notice] 21208#6752: signal process started
+2022/03/26 10:10:06 [emerg] 11224#16448: the unix domain sockets are not supported on this platform in upstream "unix:/var/run/php/php8.0-fpm.sock" in C:/Users/amongfr/Downloads/laragon-portable/etc/nginx/sites-enabled/00-default.conf:25
+2022/03/26 10:12:57 [emerg] 2884#15188: CreateFile() "C:/Users/amongfr/Downloads/laragon-portable/etc/nginx/php_upstream.conf" failed (3: FormatMessage() error:(15100)) in C:\Users\amongfr\Downloads\laragon-portable\bin\nginx\nginx-1.14.0/conf/nginx.conf:34
+2022/03/26 10:12:57 [alert] 17936#12420: worker process 2884 exited with code 1
+2022/03/26 10:12:57 [alert] 17936#12420: could not respawn worker
+2022/03/26 10:18:19 [notice] 18604#20064: signal process started

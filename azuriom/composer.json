@@ -1,0 +1,83 @@
+{
+    "name": "azuriom/azuriom",
+    "type": "project",
+    "description": "Azuriom is an open-source game CMS based on Laravel.",
+    "keywords": ["cms", "azuriom", "laravel"],
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": "^8.0.2",
+        "ext-json": "*",
+        "ext-zip": "*",
+        "bacon/bacon-qr-code": "^2.0",
+        "composer/semver": "^3.2",
+        "funkjedi/composer-include-files": "^1.1",
+        "google/recaptcha": "^1.2",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^9.2",
+        "laravel/socialite": "^5.4",
+        "laravel/tinker": "^2.7",
+        "laravel/ui": "^3.4.2",
+        "pragmarx/google2fa": "^8.0",
+        "symfony/filesystem": "^6.0",
+        "textalk/websocket": "^1.5",
+        "thedudeguy/rcon": "^1.0",
+        "truckersmp/steam-socialite": "^1.4",
+        "xpaw/php-source-query-class": "^2.1"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.6.6",
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^6.1",
+        "phpunit/phpunit": "^9.5.10",
+        "spatie/laravel-ignition": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "funkjedi/composer-include-files": true
+        },
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        },
+        "include_files": [
+            "app/base_helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

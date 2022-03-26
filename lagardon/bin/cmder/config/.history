@@ -1,0 +1,40 @@
+php -V
+php -V
+apt install curl php5.4-mysql php5.4-pgsql php5.4-sqlite php5.4-bcmath php5.4-mbstring php5.4-xml php5.4-curl php5.4-zip php5.4-gd
+chmod -R 755 /var/www/azuriom
+php -V
+apt install curl php5.4-mysql php5.4-pgsql php5.4-sqlite php5.4-bcmath php5.4-mbstring php5.4-xml php5.4-curl php5.4-zip php5.4-gd
+chmod -R 755 /var/www/azuriom
+chmod($fichier, 0777);
+chmod download windows
+chmod($, 0777);
+chmod
+777
+chmod777
+chown -R www-data:www-data /var/www/azuriom
+a2enmod rewrite
+server {
+    listen 80;
+    server_name example.com;
+    root /var/www/azuriom/public;
+    add_header X-Frame-Options "SAMEORIGIN";
+    add_header X-XSS-Protection "1; mode=block";
+    add_header X-Content-Type-Options "nosniff";
+    add_header Referrer-Policy "strict-origin-when-cross-origin";
+    index index.html index.htm index.php;
+    charset utf-8;
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /robots.txt  { access_log off; log_not_found off; }
+    error_page 404 /index.php;
+    location ~ \.php$ {
+        fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }

@@ -1,0 +1,14 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="2">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="576" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Windows\system32\drivers\etc\hosts" backupFilePath="" originalFileLastModifTimestamp="1648205875" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="0" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="1732" xOffset="0" scrollWidth="1080" startPos="69198" endPos="0" selMode="0" lang="INI file" encoding="-1" filename="C:\Users\amongfr\Downloads\laragon-portable\bin\php\php-5.4.9-nts-Win32-VC9-x86\php.ini" backupFilePath="" originalFileLastModifTimestamp="1648205956" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="0" mapWrapIndentMode="-1" mapIsWrap="no">
+                <Mark line="0" />
+                <Fold line="915" />
+            </File>
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="344" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\amongfr\Downloads\laragon-portable\usr\sites.conf" backupFilePath="" originalFileLastModifTimestamp="1533104131" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="13631695" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="5" xOffset="0" scrollWidth="712" startPos="0" endPos="0" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\amongfr\Downloads\laragon-portable\bin\nginx\nginx-1.14.0\conf\nginx.conf" backupFilePath="" originalFileLastModifTimestamp="1648205543" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="1143472128" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

@@ -1,0 +1,128 @@
+220325 11:52:25 [Note] Plugin 'FEDERATED' is disabled.
+220325 11:52:25  InnoDB: Initializing buffer pool, size = 8.0M
+220325 11:52:25  InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+220325 11:52:25  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+220325 11:52:25  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+220325 11:52:25  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+220325 11:52:25  InnoDB: Started; log sequence number 0 0
+Can't start server: Bind on TCP/IP port: No such file or directory
+220325 11:52:25 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220325 11:52:25 [ERROR] Aborting
+
+220325 11:52:25  InnoDB: Starting shutdown...
+220325 11:52:30  InnoDB: Shutdown completed; log sequence number 0 44233
+220325 11:52:30 [Note] C:\Users\amongfr\Downloads\laragon-portable\bin\mysql\mysql-5.1.72-win32\bin\mysqld: Shutdown complete
+
+220325 12:14:30 [Note] Plugin 'FEDERATED' is disabled.
+220325 12:14:30  InnoDB: Initializing buffer pool, size = 8.0M
+220325 12:14:30  InnoDB: Completed initialization of buffer pool
+220325 12:14:30  InnoDB: Started; log sequence number 0 44233
+Can't start server: Bind on TCP/IP port: No such file or directory
+220325 12:14:30 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+220325 12:14:30 [ERROR] Aborting
+
+220325 12:14:30  InnoDB: Starting shutdown...
+220325 12:14:36  InnoDB: Shutdown completed; log sequence number 0 44233
+220325 12:14:36 [Note] C:\Users\amongfr\Downloads\laragon-portable\bin\mysql\mysql-5.1.72-win32\bin\mysqld: Shutdown complete
+
+220325 13:01:59 [Note] Plugin 'FEDERATED' is disabled.
+220325 13:02:00  InnoDB: Initializing buffer pool, size = 8.0M
+220325 13:02:00  InnoDB: Completed initialization of buffer pool
+220325 13:02:00  InnoDB: Started; log sequence number 0 44233
+220325 13:06:34 [Note] Plugin 'FEDERATED' is disabled.
+220325 13:06:34  InnoDB: Initializing buffer pool, size = 8.0M
+220325 13:06:34  InnoDB: Completed initialization of buffer pool
+220325 13:06:34  InnoDB: Started; log sequence number 0 44233
+220325 13:09:12 [Note] Plugin 'FEDERATED' is disabled.
+220325 13:09:12  InnoDB: Initializing buffer pool, size = 8.0M
+220325 13:09:12  InnoDB: Completed initialization of buffer pool
+220325 13:09:12  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220325 13:09:22  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220325 13:09:32  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220325 13:09:42  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220325 13:17:20 [Note] Plugin 'FEDERATED' is disabled.
+220325 13:17:20  InnoDB: Initializing buffer pool, size = 8.0M
+220325 13:17:20  InnoDB: Completed initialization of buffer pool
+220325 13:17:20  InnoDB: Started; log sequence number 0 44233
+220325 13:54:04 [Note] Plugin 'FEDERATED' is disabled.
+220325 13:54:04  InnoDB: Initializing buffer pool, size = 8.0M
+220325 13:54:04  InnoDB: Completed initialization of buffer pool
+220325 13:54:04  InnoDB: Started; log sequence number 0 44233
+220325 13:54:17 [Note] Plugin 'FEDERATED' is disabled.
+220325 13:54:17  InnoDB: Initializing buffer pool, size = 8.0M
+220325 13:54:17  InnoDB: Completed initialization of buffer pool
+220325 13:54:17  InnoDB: Started; log sequence number 0 44233
+220326 10:16:49 [Note] Plugin 'FEDERATED' is disabled.
+220326 10:16:49  InnoDB: Initializing buffer pool, size = 8.0M
+220326 10:16:49  InnoDB: Completed initialization of buffer pool
+220326 10:16:49  InnoDB: Started; log sequence number 0 44233
+220326 10:17:46 [Note] Plugin 'FEDERATED' is disabled.
+220326 10:17:46  InnoDB: Initializing buffer pool, size = 8.0M
+220326 10:17:46  InnoDB: Completed initialization of buffer pool
+220326 10:17:46  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:17:56  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:18:06  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:18:16  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:18:26  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:18:36  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:18:46  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:18:56  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:19:07  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:19:17  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+220326 10:19:27  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
